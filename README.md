@@ -34,14 +34,15 @@ To quickly get started with the AI Medical Assistant, follow these steps:
 5. Activate the virtual environment by running `source <name>/bin/activate` in WSL. Replace `<name>` with the name of your virtual environment.
 6. Install the required dependencies for the back-end using `pip3 install -r requirements.txt` within the activated virtual environment.
 7. Install [Ollama](https://github.com/ollama/ollama) in WSL by following the installation instructions provided in the ollama repository or website. And pull a local model of your choice
-8. Set up the AI model by following the instructions in the `model` directory.
-9. Start the back-end API by running `python app.py` within the activated virtual environment in WSL.
-10. Open a new command prompt or PowerShell window in Windows (outside of WSL).
-11. Navigate to the directory where you cloned the repository in Windows.
-12. Install the required dependencies for the front-end using `npm install`.
-13. Start the front-end development server using `npm start`.
-14. Open a web browser and navigate to `http://localhost:3000` to access the application.
-15. Type in a request in the chat interface and press enter to receive a response from the AI model.
-16. To upload an image for diagnosis, click on the "Upload Image" button in the sidebar and select the image file.
-17. The AI model will analyze the image and provide a diagnosis in the chat interface.
+8. Pull embedding of choice from ollama too. We used nomic-embed-text so we ran the command in wsl `ollama pull nomic-embed-text`
+9. Set up the AI model by following the instructions in the `model` directory.
+10. Start the back-end API by running `python app.py` within the activated virtual environment in WSL.
+11. Open a new command prompt or PowerShell window in Windows (outside of WSL).
+12. Navigate to the directory where you cloned the repository in Windows.
+13. Install the required dependencies for the front-end using `npm install`.
+14. Start the front-end development server using `npm start`.
+15. Open a web browser and navigate to `http://localhost:3000` to access the application.
+16. Type in a request in the chat interface and press enter to receive a response from the AI model.
+17. To upload an image for diagnosis, click on the "Upload Image" button in the sidebar and select the image file.
+18. The AI model will analyze the image and provide a diagnosis in the chat interface.
 
