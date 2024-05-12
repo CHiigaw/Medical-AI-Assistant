@@ -30,7 +30,7 @@ To quickly get started with the AI Medical Assistant, follow these steps:
 1. Clone the repository to your local machine.
 2. If you have a Windows machine ensure you have [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install) installed if you haven't already. Open WSL and navigate to the directory where you cloned the repository.
 3. Install python on wsl by running `sudo apt install python3 python3-pip`
-4. Create a virtual environment in the directory by running `python3 -m venv <name>` in WSL. Replace `<name>` with the desired name for your virtual environment.
+4. Create a virtual environment in the directory by running `python3 -m venv <name>` in WSL. Replace `<name>` with the desired name for your virtual environment, we used venv as the name.
 5. Activate the virtual environment by running `source <name>/bin/activate` in WSL. Replace `<name>` with the name of your virtual environment.
 6. Install the required dependencies for the back-end using `pip3 install -r requirements.txt` within the activated virtual environment.
 7. Install [Ollama](https://github.com/ollama/ollama) in WSL by following the installation instructions provided in the ollama repository or website. And pull a local model of your choice
